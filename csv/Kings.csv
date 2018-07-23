@@ -1,0 +1,43 @@
+Skaters,,,,
+Pos,Player,Team,Status,Salary
+C,"Komarov, Leo",TOR,Act,"2,950,000"
+C,"Rask, Victor",CAR,Act,"4,000,000"
+C,"Turris, Kyle",OTT,Act,"3,500,000"
+W,"Eberle, Jordan",NYI,Act,"6,000,000"
+W,"Ferland, Micheal",CGY,Act,"1,750,000"
+W,"Hoffman, Mike",OTT,Act,"5,187,500"
+W,"Kucherov, Nikita",TB,Act,"4,766,667"
+W,"Marchand, Brad",BOS,Act,"6,125,000"
+W,"Saad, Brandon",CHI,Act,"6,000,000"
+F,"Gourde, Yanni",TB,Act,"1,000,000"
+F,"Namestnikov, Vladislav",TB,Act,"1,937,500"
+F,"Rust, Bryan",PIT,Act,"640,000"
+F,"Weal, Jordan",PHI,Act,"1,750,000"
+F,"Zacha, Pavel",NJ,Act,"894,167"
+D,"Brodin, Jonas",MIN,Act,"4,166,667"
+D,"Carlo, Brandon",BOS,Act,"789,167"
+D,"de Haan, Calvin",NYI,Act,"3,300,000"
+D,"Dotchin, Jake",TB,Act,"812,500"
+D,"Faulk, Justin",CAR,Act,"4,833,333"
+D,"Pietrangelo, Alex",STL,Act,"6,500,000"
+Enf,"Martin, Matt",TOR,Act,"2,500,000"
+PK,"Bonino, Nick",NSH,Act,"4,100,000"
+W,"Barbashev, Ivan",STL,Res,"741,667"
+D,"LaDue, Paul",LA,Res,"874,125"
+C,"Frost, Morgan",PHI,Min,"925,000"
+C,"Lipanov, Alexei",TB,Min,"500,000"
+W,"Bellows, Kieffer",NYI,Min,"500,000"
+W,"Tolvanen, Eeli",NSH,Min,"500,000"
+D,"Foote, Cal",TB,Min,"500,000"
+D,"Timmins, Conor",COL,Min,"500,000"
+D,"Zboril, Jakub",BOS,Min,"925,000"
+Totals,,,,
+,,,,
+Goalies,,,,
+Pos,Player,Team,Status,Salary
+G,"Bishop, Ben",DAL,Act,"4,916,667"
+G,"Schneider, Cory",NJ,Act,"6,000,000"
+G,"Kinkaid, Keith",NJ,Res,"1,250,000"
+G,"Fucale, Zachary",MON,Min,"714,167"
+G,"Soderstrom, Linus",NYI,Min,"803,333"
+Totals,,,,

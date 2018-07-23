@@ -1,0 +1,42 @@
+Skaters,,,,
+Pos,Player,Team,Status,Salary
+C,"Duchene, Matt",COL,Act,"6,000,000"
+C,"Jost, Tyson",COL,Act,"885,833"
+C,"Little, Bryan",WPG,Act,"4,700,000"
+W,"Hall, Taylor",NJ,Act,"6,000,000"
+W,"Hornqvist, Patric",PIT,Act,"4,250,000"
+W,"Laine, Patrik",WPG,Act,"925,000"
+W,"Lucic, Milan",EDM,Act,"6,000,000"
+W,"Milano, Sonny",CBJ,Act,"863,333"
+W,"Neal, James",VGK,Act,"5,000,000"
+F,"Aberg, Pontus",NSH,Act,"650,000"
+F,"Brown, Logan",OTT,Act,"894,166"
+F,"Johnson, Tyler",TB,Act,"5,000,000"
+F,"Nugent-Hopkins, Ryan",EDM,Act,"6,000,000"
+F,"Patrick, Nolan",PHI,Act,"925,000"
+D,"Bowey, Madison",WSH,Act,"703,333"
+D,"Ekman-Larsson, Oliver",ARI,Act,"5,500,000"
+D,"Johns, Stephen",DAL,Act,"725,000"
+D,"Karlsson, Erik",OTT,Act,"6,500,000"
+D,"Sergachev, Mikhail",TB,Act,"894,166"
+D,"Zadorov, Nikita",COL,Act,"2,150,000"
+Enf,"McCann, Jared",FLA,Act,"894,167"
+PK,"Kerfoot, Alexander",COL,Act,"925,000"
+C,"Getzlaf, Ryan",ANA,Res,"8,250,000"
+PK,"Vatanen, Sami",ANA,Res,"4,875,000"
+C,"Boqvist, Jesper",NJ,Min,"500,000"
+C,"Rasmussen, Michael",DET,Min,"925,000"
+W,"Dal Colle, Michael",NYI,Min,"863,333"
+W,"Grundstrom, Carl",TOR,Min,"925,000"
+W,"Scherbak, Nikita",MON,Min,"863,333"
+W,"Sprong, Daniel",PIT,Min,"692,500"
+W,"Vesalainen, Kristian",WPG,Min,"500,000"
+D,"Jokiharju, Henri",CHI,Min,"500,000"
+Totals,,,,
+,,,,
+Goalies,,,,
+Pos,Player,Team,Status,Salary
+G,"Darling, Scott",CAR,Act,"4,150,000"
+G,"Varlamov, Semyon",COL,Act,"5,900,000"
+G,"Lehner, Robin",BUF,Res,"4,000,000"
+Totals,,,,

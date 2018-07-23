@@ -1,0 +1,42 @@
+Skaters,,,,
+Pos,Player,Team,Status,Salary
+C,"Backstrom, Nicklas",WSH,Act,"6,700,000"
+C,"Schenn, Brayden",STL,Act,"5,125,000"
+C,"Staal, Eric",MIN,Act,"3,500,000"
+W,"Atkinson, Cam",CBJ,Act,"3,500,000"
+W,"Forsberg, Filip",NSH,Act,"6,000,000"
+W,"Hartman, Ryan",CHI,Act,"863,333"
+W,"Lehkonen, Artturi",MON,Act,"839,167"
+W,"Oshie, T.J.",WSH,Act,"5,750,000"
+W,"Toffoli, Tyler",LA,Act,"4,600,000"
+F,"Andrighetto, Sven",COL,Act,"1,400,000"
+F,"Dano, Marko",WPG,Act,"850,000"
+F,"Hyman, Zach",TOR,Act,"2,250,000"
+F,"Lowry, Adam",WPG,Act,"1,125,000"
+F,"Vesey, Jimmy",NYR,Act,"925,000"
+D,"Benn, Jordie",MON,Act,"1,100,000"
+D,"Edmundson, Joel",STL,Act,"1,050,000"
+D,"Keith, Duncan",CHI,Act,"5,538,462"
+D,"Lindell, Esa",DAL,Act,"2,200,000"
+D,"Parayko, Colton",STL,Act,"5,500,000"
+D,"Weber, Shea",MON,Act,"7,857,143"
+Enf,"Forbort, Derek",LA,Act,"650,000"
+PK,"Dvorak, Christian",ARI,Act,"839,167"
+C,"Athanasiou, Andreas",DET,Res,"500,000"
+W,"Compher, J.T.",COL,Res,"925,000"
+D,"Slepyshev, Anton",EDM,Res,"925,000"
+C,"Andersson, Lias",NYR,Min,"925,000"
+C,"Ikonen, Joni",MON,Min,"500,000"
+C,"Poehling, Ryan",MON,Min,"500,000"
+C,"Texier, Alexandre",CBJ,Min,"500,000"
+C,"Thomas, Robert",STL,Min,"500,000"
+W,"Formenton, Alex",OTT,Min,"500,000"
+D,"Brook, Josh",MON,Min,"500,000"
+D,"Mitchell, Ian",CHI,Min,"500,000"
+Totals,,,,
+,,,,
+Goalies,,,,
+Pos,Player,Team,Status,Salary
+G,"Allen, Jake",STL,Act,"4,350,000"
+G,"Anderson, Craig",OTT,Act,"4,200,000"
+Totals,,,,

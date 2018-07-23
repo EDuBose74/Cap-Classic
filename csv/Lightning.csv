@@ -1,0 +1,42 @@
+Skaters,,,,
+Pos,Player,Team,Status,Salary
+C,"Kadri, Nazem",TOR,Act,"4,500,000"
+C,"Letestu, Mark",EDM,Act,"1,800,000"
+C,"Stamkos, Steven",TB,Act,"8,500,000"
+W,"Kane, Evander",BUF,Act,"5,250,000"
+W,"Kessel, Phil",PIT,Act,"6,800,000"
+W,"Mantha, Anthony",DET,Act,"863,333"
+W,"Pearson, Tanner",LA,Act,"3,750,000"
+W,"Pitlick, Tyler",DAL,Act,"1,000,000"
+W,"Vrana, Jakub",WSH,Act,"863,333"
+F,"Jagr, Jaromir",CGY,Act,"1,000,000"
+F,"Niederreiter, Nino",MIN,Act,"5,250,000"
+F,"Pominville, Jason",BUF,Act,"5,600,000"
+F,"Sobotka, Vladimir",STL,Act,"3,500,000"
+F,"Stafford, Drew",NJ,Act,"800,000"
+D,"Green, Mike",DET,Act,"6,000,000"
+D,"Hedman, Victor",TB,Act,"7,875,000"
+D,"Leddy, Nick",NYI,Act,"5,500,000"
+D,"Martinez, Alec",LA,Act,"4,000,000"
+D,"McAvoy, Charlie",BOS,Act,"916,667"
+D,"Niskanen, Matt",WSH,Act,"5,750,000"
+Enf,"Borowiecki, Mark",OTT,Act,"1,100,000"
+PK,"Larsson, Adam",EDM,Act,"4,166,667"
+C,"McLeod, Michael",NJ,Res,"894,166"
+F,"Svechnikov, Evgeny",DET,Res,"863,333"
+C,"Chytil, Filip",NYR,Min,"925,000"
+C,"Kostin, Klim",STL,Min,"925,000"
+C,"Rubtsov, German",PHI,Min,"925,000"
+W,"Abramov, Vitaly",CBJ,Min,"745,000"
+W,"Robertson, Jason",DAL,Min,"500,000"
+D,"Hague, Nicolas",VGK,Min,"500,000"
+D,"Valimaki, Juuso",CGY,Min,"925,000"
+Totals,,,,
+,,,,
+Goalies,,,,
+Pos,Player,Team,Status,Salary
+G,"Andersen, Frederik",TOR,Act,"5,000,000"
+G,"Smith, Mike",CGY,Act,"4,250,000"
+G,"Korpisalo, Joonas",CBJ,Res,"900,000"
+G,"DiPietro, Michael",VAN,Min,"500,000"
+Totals,,,,

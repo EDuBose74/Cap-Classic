@@ -1,0 +1,42 @@
+Skaters,,,,
+Pos,Player,Team,Status,Salary
+C,"Dubinsky, Brandon",CBJ,Act,"5,850,000"
+C,"Guentzel, Jake",PIT,Act,"734,167"
+C,"Hischier, Nico",NJ,Act,"925,000"
+W,"Arvidsson, Viktor",NSH,Act,"4,250,000"
+W,"Frk, Martin",DET,Act,"650,000"
+W,"Radulov, Alexander",DAL,Act,"6,250,000"
+W,"Simmonds, Wayne",PHI,Act,"3,975,000"
+W,"Skinner, Jeff",CAR,Act,"5,725,000"
+W,"Voracek, Jakub",PHI,Act,"8,250,000"
+F,"Beauvillier, Anthony",NYI,Act,"894,167"
+F,"Bjork, Anders",BOS,Act,"925,000"
+F,"Konecny, Travis",PHI,Act,"894,167"
+F,"Maroon, Patrick",EDM,Act,"1,500,000"
+F,"Perreault, Mathieu",WPG,Act,"4,125,000"
+D,"Butcher, Will",NJ,Act,"925,000"
+D,"Girard, Samuel",NSH,Act,"728,333"
+D,"Gostisbehere, Shayne",PHI,Act,"4,500,000"
+D,"Irwin, Matt",NSH,Act,"650,000"
+D,"McDonagh, Ryan",NYR,Act,"4,700,000"
+D,"Yandle, Keith",FLA,Act,"6,350,000"
+Enf,"Caggiula, Drake",EDM,Act,"925,000"
+PK,"Mete, Victor",MON,Act,"748,333"
+D,"Chychrun, Jakob",ARI,Res,"925,000"
+PK,"Coyle, Charlie",MIN,Res,"3,200,000"
+PK,"Hunt, Brad",VGK,Res,"600,000"
+C,"Kyrou, Jordan",STL,Min,"772,500"
+C,"O'Regan, Daniel",SJ,Min,"858,750"
+C,"Steenbergen, Tyler",ARI,Min,"500,000"
+W,"Foo, Spencer",CGY,Min,"925,000"
+W,"Jones, Max",ANA,Min,"894,166"
+W,"Motte, Tyler",CBJ,Min,"925,000"
+D,"Fox, Adam",CGY,Min,"500,000"
+Totals,,,,
+,,,,
+Goalies,,,,
+Pos,Player,Team,Status,Salary
+G,"Grubauer, Philipp",WSH,Act,"1,500,000"
+G,"Murray, Matt",PIT,Act,"3,750,000"
+G,"Talbot, Cam",EDM,Res,"4,166,667"
+Totals,,,,

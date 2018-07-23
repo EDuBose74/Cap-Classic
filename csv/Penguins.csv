@@ -1,0 +1,42 @@
+Skaters,,,,
+Pos,Player,Team,Status,Salary
+C,"Couture, Logan",SJ,Act,"6,000,000"
+C,"Malkin, Evgeni",PIT,Act,"9,500,000"
+C,"Monahan, Sean",CGY,Act,"6,375,000"
+W,"Anderson, Josh",CBJ,Act,"1,850,000"
+W,"Granlund, Mikael",MIN,Act,"5,750,000"
+W,"Jenner, Boone",CBJ,Act,"2,900,000"
+W,"Reinhart, Sam",BUF,Act,"894,167"
+W,"Teravainen, Teuvo",CAR,Act,"2,860,000"
+W,"Zucker, Jason",MIN,Act,"2,000,000"
+F,"Cizikas, Casey",NYI,Act,"3,350,000"
+F,"Eakin, Cody",VGK,Act,"3,850,000"
+F,"Perron, David",VGK,Act,"3,750,000"
+F,"Shore, Devin",DAL,Act,"870,000"
+F,"Tippett, Owen",FLA,Act,"925,000"
+D,"Burns, Brent",SJ,Act,"8,000,000"
+D,"Claesson, Fredrik",OTT,Act,"650,000"
+D,"Fleury, Haydn",CAR,Act,"863,333"
+D,"Letang, Kris",PIT,Act,"7,250,000"
+D,"Murphy, Connor",CHI,Act,"3,850,000"
+D,"Schmidt, Nate",VGK,Act,"2,225,000"
+Enf,"Kassian, Zack",EDM,Act,"1,950,000"
+PK,"Watson, Austin",NSH,Act,"1,100,000"
+C,"Frederic, Trent",BOS,Res,"500,000"
+C,"Lazar, Curtis",CGY,Res,"950,000"
+C,"Strome, Dylan",ARI,Res,"863,333"
+D,"Merrill, Jon",VGK,Res,"1,137,500"
+C,"Bowers, Shane",OTT,Min,"500,000"
+F,"Steel, Sam",ANA,Min,"894,166"
+D,"Bean, Jake",CAR,Min,"894,166"
+D,"Theodore, Shea",VGK,Min,"863,333"
+PK,"Kapanen, Kasperi",TOR,Min,"863,333"
+Totals,,,,
+,,,,
+Goalies,,,,
+Pos,Player,Team,Status,Salary
+G,"Price, Carey",MON,Act,"6,500,000"
+G,"Reimer, James",FLA,Act,"3,400,000"
+G,"Luongo, Roberto",FLA,Res,"5,333,333"
+G,"Jarry, Tristan",PIT,Min,"630,833"
+Totals,,,,

@@ -1,0 +1,42 @@
+Skaters,,,,
+Pos,Player,Team,Status,Salary
+C,"Brassard, Derick",OTT,Act,"5,000,000"
+C,"Giroux, Claude",PHI,Act,"8,275,000"
+C,"Marchessault, Jonathan",VGK,Act,"750,000"
+W,"Aho, Sebastian",CAR,Act,"925,000"
+W,"Danault, Phillip",MON,Act,"912,500"
+W,"Domi, Max",ARI,Act,"863,333"
+W,"Ho-Sang, Joshua",NYI,Act,"863,333"
+W,"Rantanen, Mikko",COL,Act,"894,166"
+W,"Tkachuk, Matthew",CGY,Act,"925,000"
+F,"Kero, Tanner",CHI,Act,"750,000"
+F,"Pageau, Jean-Gabriel",OTT,Act,"3,100,000"
+F,"Spezza, Jason",DAL,Act,"7,500,000"
+F,"Toews, Jonathan",CHI,Act,"10,500,000"
+F,"Zetterberg, Henrik",DET,Act,"6,083,333"
+D,"Beaulieu, Nathan",BUF,Act,"2,400,000"
+D,"Benning, Matt",EDM,Act,"925,000"
+D,"Manson, Josh",ANA,Act,"825,000"
+D,"Morrissey, Josh",WPG,Act,"863,333"
+D,"Spurgeon, Jared",MIN,Act,"5,187,500"
+D,"Werenski, Zach",CBJ,Act,"925,000"
+Enf,"Skjei, Brady",NYR,Act,"925,000"
+PK,"Borgman, Andreas",TOR,Act,"925,000"
+C,"Faksa, Radek",DAL,Res,"2,200,000"
+W,"Backes, David",BOS,Res,"6,000,000"
+W,"Bertuzzi, Tyler",DET,Res,"661,667"
+D,"Seidenberg, Dennis",NYI,Res,"1,250,000"
+Enf,"Holden, Nick",NYR,Res,"1,650,000"
+C,"Anderson-Dolan, Jaret",LA,Min,"500,000"
+C,"Glass, Cody",VGK,Min,"925,000"
+C,"Howden, Brett",TB,Min,"894,166"
+C,"Salinitri, Anthony",PHI,Min,"500,000"
+W,"Mascherin, Adam",FLA,Min,"500,000"
+Totals,,,,
+,,,,
+Goalies,,,,
+Pos,Player,Team,Status,Salary
+G,"Holtby, Braden",WSH,Act,"6,100,000"
+G,"Lundqvist, Henrik",NYR,Act,"8,500,000"
+G,"Dubnyk, Devan",MIN,Res,"4,333,333"
+Totals,,,,

@@ -1,0 +1,42 @@
+Skaters,,,,
+Pos,Player,Team,Status,Salary
+C,"Bozak, Tyler",TOR,Act,"4,200,000"
+C,"Point, Brayden",TB,Act,"686,667"
+C,"Sedin, Henrik",VAN,Act,"7,000,000"
+W,"Connolly, Brett",WSH,Act,"1,500,000"
+W,"Lee, Anders",NYI,Act,"3,750,000"
+W,"Nylander, William",TOR,Act,"894,167"
+W,"Panarin, Artemi",CBJ,Act,"6,000,000"
+W,"Schmaltz, Nick",CHI,Act,"925,000"
+W,"Zuccarello, Mats",NYR,Act,"4,500,000"
+F,"Backlund, Mikael",CGY,Act,"3,575,000"
+F,"Carter, Jeff",LA,Act,"5,272,727"
+F,"Dadonov, Evgenii",FLA,Act,"4,000,000"
+F,"DeBrincat, Alex",CHI,Act,"778,333"
+F,"Scheifele, Mark",WPG,Act,"6,125,000"
+D,"Carrick, Connor",TOR,Act,"750,000"
+D,"Demers, Jason",ARI,Act,"3,937,500"
+D,"Miller, Colin",VGK,Act,"1,000,000"
+D,"Muzzin, Jake",LA,Act,"4,000,000"
+D,"Petry, Jeff",MON,Act,"5,500,000"
+D,"Zaitsev, Nikita",TOR,Act,"4,500,000"
+Enf,"Schenn, Luke",ARI,Act,"1,250,000"
+PK,"Russell, Kris",EDM,Act,"4,000,000"
+W,"Cammalleri, Michael",LA,Res,"1,000,000"
+W,"Jokinen, Jussi",EDM,Res,"1,100,000"
+W,"Yamamoto, Kailer",EDM,Res,"925,000"
+C,"Heponiemi, Aleksi",FLA,Min,"500,000"
+C,"Ruzicka, Adam",CGY,Min,"500,000"
+W,"Katchouk, Boris",TB,Min,"864,167"
+W,"Volkov, Alexander",TB,Min,"764,167"
+D,"Liljegren, Timothy",TOR,Min,"925,000"
+D,"Myers, Philippe",PHI,Min,"678,333"
+Totals,,,,
+,,,,
+Goalies,,,,
+Pos,Player,Team,Status,Salary
+G,"Bobrovsky, Sergei",CBJ,Act,"7,425,000"
+G,"Elliott, Brian",PHI,Act,"2,750,000"
+G,"Halak, Jaroslav",NYI,Res,"4,500,000"
+G,"Luukkonen, Ukko-Pekka",BUF,Min,"500,000"
+Totals,,,,

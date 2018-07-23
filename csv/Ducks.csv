@@ -1,0 +1,42 @@
+Skaters,,,,
+Pos,Player,Team,Status,Salary
+C,"Beagle, Jay",WSH,Act,"1,750,000"
+C,"Gagner, Sam",VAN,Act,"3,150,000"
+C,"Pavelski, Joe",SJ,Act,"6,000,000"
+W,"Benn, Jamie",DAL,Act,"9,500,000"
+W,"Burakovsky, Andre",WSH,Act,"3,000,000"
+W,"Ovechkin, Alex",WSH,Act,"9,538,462"
+W,"Rakell, Rickard",ANA,Act,"3,789,444"
+W,"Sheary, Conor",PIT,Act,"3,000,000"
+W,"Vanek, Thomas",VAN,Act,"2,000,000"
+F,"Chiasson, Alex",WSH,Act,"800,000"
+F,"Grabner, Michael",NYR,Act,"1,650,000"
+F,"Ryan, Derek",CAR,Act,"1,425,000"
+F,"Sharp, Patrick",CHI,Act,"800,000"
+F,"Spooner, Ryan",BOS,Act,"2,825,000"
+D,"Carlson, John",WSH,Act,"3,966,667"
+D,"Cole, Ian",PIT,Act,"2,100,000"
+D,"Del Zotto, Michael",VAN,Act,"3,000,000"
+D,"Doughty, Drew",LA,Act,"7,000,000"
+D,"Hickey, Thomas",NYI,Act,"2,200,000"
+D,"Rutta, Jan",CHI,Act,"925,000"
+Enf,"Brickley, Connor",FLA,Act,"750,000"
+PK,"Versteeg, Kris",CGY,Act,"1,750,000"
+W,"Kunitz, Chris",TB,Res,"2,000,000"
+W,"Pyatt, Tom",OTT,Res,"1,100,000"
+W,"Wilson, Scott",PIT,Res,"625,000"
+D,"Lindholm, Anton",COL,Res,"717,500"
+D,"Streit, Mark",MON,Res,"700,000"
+C,"Aaltonen, Miro",TOR,Min,"925,000"
+D,"Aho, Sebastian",NYI,Min,"770,000"
+D,"Alt, Mark",PHI,Min,"650,000"
+Totals,,,,
+,,,,
+Goalies,,,,
+Pos,Player,Team,Status,Salary
+G,"Niemi, Antti",PIT,Act,"700,000"
+G,"Rinne, Pekka",NSH,Act,"7,000,000"
+G,"Dell, Aaron",SJ,Res,"625,000"
+G,"Appleby, Ken",NJ,Min,"635,000"
+G,"Demko, Thatcher",VAN,Min,"925,000"
+Totals,,,,
