@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 1550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+      h1{
+          text-align: center;
+      }
+      
+      p.side{
+          font-size: 26px;
+      }
+      
+      img{
+          padding-bottom: 20px;
+      }
+      
+      table {
+          background-color: #fff;
+          text-align:center;
+          
+      }
+      th{
+          background-color: #081E41;
+          text-align:center;
+          color: floralwhite;          
+      }
+      
+      #player{
+          text-align: left;
+      }
+      
+      #ufa{
+          background-color: #A2AAAC;
+          text-align: center;
+          color: floralwhite;
+      }
+      
+      #rfa{
+          background-color: #752D3F;
+          text-align: center;
+          color: floralwhite;
+      }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class = "navbar-header">   
+                <a class = "navbar-brand" href = "index.htm">Cap Classic Hockey</a>
+            </div>
+                <ul class = "nav navbar-nav">           
+                    <li class = "active"><a href="index.htm">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">East<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Bruins.htm">Bruins</a></li>
+                            <li><a href="Lightning.htm">Lightning</a></li>
+                            <li><a href="Canadiens.htm">Canadiens</a></li>
+                            <li><a href="Flyers.htm">Flyers</a></li>
+                        </ul></li>
+
+                        <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Central<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="Penguins.htm">Penguins</a></li>
+                            <li><a href="Bluejackets.htm">Blue Jackets</a></li>
+                            <li><a href="Rangers.htm">Rangers</a></li>
+                            <li><a href="Blues.htm">Blues</a></li>
+
+                         </ul></li>
+
+                        <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">South<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Northstars.htm">North Stars</a></li>
+                            <li><a href="Wild.htm">Wild</a></li>
+                            <li><a href="Jets.htm">Jets</a></li>
+                            <li><a href="Knights.htm">Knights</a></li>
+
+                        </ul></li>
+
+                        <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">West<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Ducks.htm">Ducks</a></li>
+                            <li><a href="Kings.htm">Kings</a></li>
+                            <li><a href="Oilers.htm">Oilers</a></li>
+                            <li><a href="Redwings.htm">Red Wings</a></li>
+                        </li>
+                        </ul>   
+                </ul>
+        </div>    
+    </nav>      
+<div class="container-fluid text-center">    
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+        <img src="images/jets.png">
+        <p class = "side">Winnipeg Jets</p>
+        <p> Cap Hit 2017-2018:</p>
+        </div> 
+        
+    <div class="col-sm-10 text-left">
+            <h1>Salary Cap Chart</h1>
+            <div class="table-responsive">
+            <table class="table">
+                <thead><tr><th title="Field #1">Pos</th>
+            <th id = "player" title="Field #2">Player</th>
+            <th title="Field #3">2017-2018</th>
+            <th title="Field #4">2018-2019</th>
+            <th title="Field #5">2019-2020</th>
+            <th title="Field #6">2020-2021</th>
+            <th title="Field #7">2021-2022</th>
+            <th title="Field #8">2022-2023</th>
+            <th title="Field #9">2023-2024</th>
+            <th title="Field #10">2024-2025</th>
+            <th title="Field #11">2025-2026</th>
+            <th title="Field #12">2026-2027</th>
+            </tr></thead>
+            <tbody><tr>
+            <td>F</td>
+            <td id = "player"> Leon Draisaitl</td>
+            <td>8,500,000</td>
+            <td>8,500,000</td>
+            <td>8,500,000</td>
+            <td>8,500,000</td>
+            <td>8,500,000</td>
+            <td>8,500,000</td>
+            <td>8,500,000</td>
+            <td>8,500,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Bo Horvat</td>
+            <td>5,500,000</td>
+            <td>5,500,000</td>
+            <td>5,500,000</td>
+            <td>5,500,000</td>
+            <td>5,500,000</td>
+            <td>5,500,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Mika Zibanejad</td>
+            <td>5,350,000</td>
+            <td>5,350,000</td>
+            <td>5,350,000</td>
+            <td>5,350,000</td>
+            <td>5,350,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Brock Boeser</td>
+            <td>925,000</td>
+            <td>925,000</td>
+            <td>925,000</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Brendan Gallagher</td>
+            <td>3,750,000</td>
+            <td>3,750,000</td>
+            <td>3,750,000</td>
+            <td>3,750,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Johnny Gaudreau</td>
+            <td>6,750,000</td>
+            <td>6,750,000</td>
+            <td>6,750,000</td>
+            <td>6,750,000</td>
+            <td>6,750,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Patrick Kane</td>
+            <td>10,500,000</td>
+            <td>10,500,000</td>
+            <td>10,500,000</td>
+            <td>10,500,000</td>
+            <td>10,500,000</td>
+            <td>10,500,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Chris Kreider</td>
+            <td>4,625,000</td>
+            <td>4,625,000</td>
+            <td>4,625,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Gabriel Landeskog</td>
+            <td>5,571,428</td>
+            <td>5,571,428</td>
+            <td>5,571,428</td>
+            <td>5,571,428</td>
+            <td>5,571,428</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Sean Couturier</td>
+            <td>4,333,333</td>
+            <td>4,333,333</td>
+            <td>4,333,333</td>
+            <td>4,333,333</td>
+            <td>4,333,333</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> William Karlsson</td>
+            <td>1,000,000</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Brett Ritchie</td>
+            <td>1,750,000</td>
+            <td>1,750,000</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Tomas Tatar</td>
+            <td>5,300,000</td>
+            <td>5,300,000</td>
+            <td>5,300,000</td>
+            <td>5,300,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Jake Virtanen</td>
+            <td>894,167</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Scott Hartnell</td>
+            <td>1,000,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Chris Stewart</td>
+            <td>1,150,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Scott Laughton</td>
+            <td>962,500</td>
+            <td>962,500</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Martin Necas</td>
+            <td>925,000</td>
+            <td>925,000</td>
+            <td>925,000</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Brendan Leipsic</td>
+            <td>650,000</td>
+            <td>650,000</td>
+            <td>650,000</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Joonas Donskoi</td>
+            <td>1,900,000</td>
+            <td>1,900,000</td>
+            <td>1,900,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Thomas Chabot</td>
+            <td>863,333</td>
+            <td>863,333</td>
+            <td>863,333</td>
+            <td>863,333</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Noah Hanifin</td>
+            <td>925,000</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Seth Jones</td>
+            <td>5,400,000</td>
+            <td>5,400,000</td>
+            <td>5,400,000</td>
+            <td>5,400,000</td>
+            <td>5,400,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Ryan Murray</td>
+            <td>2,825,000</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Steven Santini</td>
+            <td>925,000</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Jacob Trouba</td>
+            <td>2,812,500</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Ryan Ellis</td>
+            <td>2,500,000</td>
+            <td>2,500,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Ian McCoshen</td>
+            <td>925,000</td>
+            <td>925,000</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>G</td>
+            <td id = "player"> Martin Jones</td>
+            <td>3,000,000</td>
+            <td>5,750,000</td>
+            <td>5,750,000</td>
+            <td>5,750,000</td>
+            <td>5,750,000</td>
+            <td>5,750,000</td>
+            <td>5,750,000</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>G</td>
+            <td id = "player"> Jacob Markstrom</td>
+            <td>3,666,667</td>
+            <td>3,666,667</td>
+            <td>3,666,667</td>
+            <td id="ufa">UFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <thead><tr><th title="Field #1">Minors</th>
+            <th id = "player" title="Field #2">Player</th>
+            <th title="Field #3">2017-2018</th>
+            <th title="Field #4">2018-2019</th>
+            <th title="Field #5">2019-2020</th>
+            <th title="Field #6">2020-2021</th>
+            <th title="Field #7">2021-2022</th>
+            <th title="Field #8">2022-2023</th>
+            <th title="Field #9">2023-2024</th>
+            <th title="Field #10">2024-2025</th>
+            <th title="Field #11">2025-2026</th>
+            <th title="Field #12">2026-2027</th>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Yakov Trenin</td>
+            <td>730,833</td>
+            <td>730,833</td>
+            <td>730,833</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Brendan Guhle</td>
+            <td>697,500</td>
+            <td>697,500</td>
+            <td>697,500</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Logan Stanley</td>
+            <td>894,166</td>
+            <td>894,166</td>
+            <td>894,166</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>F</td>
+            <td id = "player"> Yakov Trenin</td>
+            <td>730,833</td>
+            <td>730,833</td>
+            <td>730,833</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Brendan Guhle</td>
+            <td>697,500</td>
+            <td>697,500</td>
+            <td>697,500</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>D</td>
+            <td id = "player"> Logan Stanley</td>
+            <td>894,166</td>
+            <td>894,166</td>
+            <td>894,166</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>G</td>
+            <td id = "player"> Carter Hart</td>
+            <td>761,666</td>
+            <td>761,666</td>
+            <td>761,666</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            <tr>
+            <td>G</td>
+            <td id = "player"> Ville Husso</td>
+            <td>847,500</td>
+            <td>847,500</td>
+            <td id="rfa">RFA</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            </tr>
+            </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+</div>
+    
+<footer class="container-fluid text-center">
+  <p>Copyright, Eric DuBose</p>
+</footer>
+    
+</body>
+</html>
